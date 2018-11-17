@@ -7,88 +7,75 @@ use Think\WapBaseController;
 class WapController extends WapBaseController {
 	var $config;
 	function _initialize() {
+        $this->need_login = false;
+        $this->need_appinfo = false;
 		parent::_initialize ();
-		$this->assign ( 'nav', null );
-		$config = getAddonConfig ( 'WeiSite' );
-		$config ['cover_url'] = get_cover_url ( $config ['cover'] );
-		
-		$config ['background_arr'] = [ ];
-		if (! empty ( $config ['background'] )) {
-			$config ['background_arr'] = explode ( ',', $config ['background'] );
-		}
-		
-		$config ['background_id'] = $config ['background_arr'] [0];
-		if (empty ( $config ['background_id'] )) {
-			// $config ['background'] = get_cover_url ( $config ['background_id'] );
-		} else {
-			$config ['background'] = get_cover_url ( $config ['background_id'] );
-		}
-		$this->config = $config;
-		$this->assign ( 'config', $config );
-		// dump ( $config );
-		// dump(get_token());
-		
-		// 定义模板常量
-		$act = strtolower ( ACTION_NAME );
-		$temp = $config ['template_' . $act];
-		$act = ucfirst ( $act );
-		$this->assign ( 'page_title', $config ['title'] );
-		define ( 'CUSTOM_TEMPLATE_PATH', ONETHINK_ADDON_PATH . 'WeixinArticle/View/Template' );
 	}
 	// 首页
 	function index() {
 		// add_credit ( 'weisite', 86400 );
-		if (file_exists ( ONETHINK_ADDON_PATH . 'WeixinArticle/View/pigcms/Index_' . $this->config ['template_index'] . '.html' )) {
-			$this->pigcms_index ();
-			$this->display ( ONETHINK_ADDON_PATH . 'WeixinArticle/View/pigcms/Index_' . $this->config ['template_index'] . '.html' );
-		} else {
-			$map1 ['token'] = $map ['token'] = get_token ();
-			$map1 ['is_show'] = $map ['is_show'] = 1;
-			$map ['pid'] = 0; // 获取一级分类
-			                  
+//		if (file_exists ( ONETHINK_ADDON_PATH . 'WeixinArticle/View/pigcms/Index_' . $this->config ['template_index'] . '.html' )) {
+//			$this->pigcms_index ();
+//			$this->display ( ONETHINK_ADDON_PATH . 'WeixinArticle/View/pigcms/Index_' . $this->config ['template_index'] . '.html' );
+//		} else {
+//			$map1 ['token'] = $map ['token'] = get_token ();
+//			$map1 ['is_show'] = $map ['is_show'] = 1;
+//			$map ['pid'] = 0; // 获取一级分类
+//
+//			// 分类
+//			$category = M ( 'weisite_category' )->where ( $map )->order ( 'sort asc, id desc' )->select ();
+//			foreach ( $category as &$vo ) {
+//				$vo ['icon'] = get_cover_url ( $vo ['icon'] );
+//				empty ( $vo ['url'] ) && $vo ['url'] = addons_url ( 'WeixinArticle://Wap/lists', array (
+//						'cate_id' => $vo ['id']
+//				) );
+//			}
+//			$this->assign ( 'category', $category );
+//			// dump($category);
+//			// 幻灯片
+//			$slideshow = M ( 'weisite_slideshow' )->where ( $map1 )->order ( 'sort asc, id desc' )->select ();
+//			foreach ( $slideshow as &$vo ) {
+//				$vo ['img'] = get_cover_url ( $vo ['img'] );
+//			}
+//
+//			foreach ( $slideshow as &$data ) {
+//				foreach ( $category as $cate ) {
+//					if ($data ['cate_id'] == $cate ['id'] && empty ( $data ['url'] )) {
+//						$data ['url'] = $cate ['url'];
+//					}
+//				}
+//			}
+//			$this->assign ( 'slideshow', $slideshow );
+//			// dump($slideshow);
+//
+//			// dump($category);
+//			$map2 ['token'] = $map ['token'];
+//			$public_info = get_token_appinfo ( $map2 ['token'] );
+//			$this->assign ( 'publicid', $public_info ['id'] );
+//
+//			$this->assign ( 'manager_id', $this->mid );
+//
+//			$this->_footer ();
+//			// $backgroundimg=ONETHINK_ADDON_PATH.'WeixinArticle/View/TemplateIndex/'.$this->config['template_index'].'/icon.png';
+//			if ($this->config ['show_background'] == 0) {
+//				$this->config ['background'] = '';
+//				$this->assign ( 'config', $this->config );
+//			}
+//			$html = empty ( $this->config ['template_index'] ) ? 'ColorV1' : $this->config ['template_index'];
+//			// dump ( $html );
+
 			// 分类
-			$category = M ( 'weisite_category' )->where ( $map )->order ( 'sort asc, id desc' )->select ();
+            $map['is_valid'] = 'T';
+			$category = M ( 'weixin_category' )->where ( $map )->order ( 'sort asc, id desc' )->select();
 			foreach ( $category as &$vo ) {
-				$vo ['icon'] = get_cover_url ( $vo ['icon'] );
 				empty ( $vo ['url'] ) && $vo ['url'] = addons_url ( 'WeixinArticle://Wap/lists', array (
-						'cate_id' => $vo ['id'] 
+						'cate_id' => $vo ['id']
 				) );
 			}
+
 			$this->assign ( 'category', $category );
-			// dump($category);
-			// 幻灯片
-			$slideshow = M ( 'weisite_slideshow' )->where ( $map1 )->order ( 'sort asc, id desc' )->select ();
-			foreach ( $slideshow as &$vo ) {
-				$vo ['img'] = get_cover_url ( $vo ['img'] );
-			}
-			
-			foreach ( $slideshow as &$data ) {
-				foreach ( $category as $cate ) {
-					if ($data ['cate_id'] == $cate ['id'] && empty ( $data ['url'] )) {
-						$data ['url'] = $cate ['url'];
-					}
-				}
-			}
-			$this->assign ( 'slideshow', $slideshow );
-			// dump($slideshow);
-			
-			// dump($category);
-			$map2 ['token'] = $map ['token'];
-			$public_info = get_token_appinfo ( $map2 ['token'] );
-			$this->assign ( 'publicid', $public_info ['id'] );
-			
-			$this->assign ( 'manager_id', $this->mid );
-			
-			$this->_footer ();
-			// $backgroundimg=ONETHINK_ADDON_PATH.'WeixinArticle/View/TemplateIndex/'.$this->config['template_index'].'/icon.png';
-			if ($this->config ['show_background'] == 0) {
-				$this->config ['background'] = '';
-				$this->assign ( 'config', $this->config );
-			}
-			$html = empty ( $this->config ['template_index'] ) ? 'ColorV1' : $this->config ['template_index'];
-			// dump ( $html );
-			$this->display ( ONETHINK_ADDON_PATH . 'WeixinArticle/View/TemplateIndex/' . $html . '/index.html' );
-		}
+
+			$this->display ( ONETHINK_ADDON_PATH . 'WeixinArticle/View/bobo/index.html' );
 	}
 	// 分类列表
 	function lists() {
