@@ -1,0 +1,17 @@
+[ 2018-11-12T13:35:04+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/edit_index/mdm/358%7C364.html
+NOTIC: [8] Undefined index: id D:\weixin web\weiphp\Addons\Weiba\Controller\PostController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Weiba\0b34869ff7be6a28f34e33971ba82fa6.php 第 165 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Weiba\0b34869ff7be6a28f34e33971ba82fa6.php 第 174 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Weiba\0b34869ff7be6a28f34e33971ba82fa6.php 第 185 行.
+
+[ 2018-11-12T13:35:27+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/edit_index/mdm/358%7C364.html
+NOTIC: [8] Undefined index: id D:\weixin web\weiphp\Addons\Weiba\Controller\PostController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Weiba\0b34869ff7be6a28f34e33971ba82fa6.php 第 165 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Weiba\0b34869ff7be6a28f34e33971ba82fa6.php 第 174 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Weiba\0b34869ff7be6a28f34e33971ba82fa6.php 第 185 行.
+
+[ 2018-11-12T13:35:31+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/add/model/1149/mdm/358%7C361.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+

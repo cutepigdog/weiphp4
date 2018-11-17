@@ -1,0 +1,59 @@
+[ 2018-11-14T12:54:08+08:00 ] 127.0.0.1 /
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.2250s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0840s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0260s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0440s ]
+
+[ 2018-11-14T12:54:09+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0330s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`token`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds` FROM `wp_qr_code` WHERE `addon` = 'ScanLogin' AND `extra_text` = '5bebaa7117890' LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT `id`,`token` FROM `wp_apps`  [ RunTime:0.0130s ]
+
+[ 2018-11-14T12:55:20+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `nickname` = 'weishaoqiang' LIMIT 1   [ RunTime:0.1380s ]
+SQL: SELECT * FROM `wp_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.1600s ]
+SQL: UPDATE `wp_user` SET `login_count`=`login_count`+1,`last_login_time`='1542171319',`last_login_ip`='2130706433' WHERE `uid` = 159 [ RunTime:0.0820s ]
+
+[ 2018-11-14T12:55:20+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/Index/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-14T12:55:20+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-14T12:55:21+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/Apps/lists/from/3.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'apps' LIMIT 1   [ RunTime:0.0210s ]
+SQL: SELECT `mp_id` FROM `wp_apps_link` WHERE ( uid='159' )  [ RunTime:0.0180s ]
+SQL: SELECT `mp_id`,count(1) as num FROM `wp_apps_link` WHERE `mp_id` IN ('16') GROUP BY mp_id  [ RunTime:0.0120s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`uid`,`public_name`,`public_id`,`headface_url`,`area`,`addon_config`,`addon_status`,`token`,`type`,`appid`,`secret`,`encodingaeskey`,`tips_url`,`is_bind`,`check_file`,`app_type`,`mch_id`,`partner_key`,`cert_pem`,`key_pem`,`authorizer_refresh_token` FROM `wp_apps` WHERE `id` IN ('16') ORDER BY id desc  [ RunTime:0.0010s ]
+
+[ 2018-11-14T12:55:27+08:00 ] 127.0.0.1 /index.php?s=/w16/Home/Index/main.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_addons` WHERE `is_show` = 1 AND `status` = 1 ORDER BY id DESC  [ RunTime:0.0740s ]
+SQL: SELECT `addon_status` FROM `wp_apps_link` WHERE `uid` = 159 AND `mp_id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `wechat_group_id`,`id` FROM `wp_auth_group` WHERE `token` = 'gh_961dc11c078d' AND `manager_id` = 159 AND `type` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_apps_follow` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wp_apps_follow as f WHERE f.token = 'gh_961dc11c078d' AND f.has_subscribe = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_apps_follow` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wp_apps_follow as f INNER JOIN wp_user as u ON f.uid=u.uid  WHERE f.token = 'gh_961dc11c078d' AND f.has_subscribe = 1 AND u.reg_time > 1542124800 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_apps_follow` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wp_apps_follow as f INNER JOIN wp_user as u ON f.uid=u.uid  WHERE f.token = 'gh_961dc11c078d' AND f.has_subscribe = 1 AND u.reg_time > 1542038400 LIMIT 1   [ RunTime:0.0000s ]
+

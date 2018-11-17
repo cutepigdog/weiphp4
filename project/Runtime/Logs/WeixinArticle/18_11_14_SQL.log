@@ -1,0 +1,157 @@
+[ 2018-11-14T12:55:31+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0580s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-14T12:55:33+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/5.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-14T12:55:34+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/5.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0060s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0130s ]
+
+[ 2018-11-14T12:55:43+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-14T12:55:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-14T12:56:36+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0120s ]
+SQL: SELECT `id`,`category_name` FROM `wp_weixin_category` ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-14T12:56:51+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0420s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('159','127.0.0.1','WeixinArticle','1542171411','http://weiphp.bb/index.php?s=/w16/WeixinArticle/WeixinArticle/add.html
+POST: array (
+  \'article_title\' => \'美副国安顾问米拉·里卡德尔将被开除，第一夫人称其不配\',
+  \'type\' => \'3\',
+  \'article_content\' => \'<p>白宫又有人要离职？美国有线电视新闻网(CNN)11月13日援引白宫官员的话称，副国家安全顾问米拉·里卡德尔将被开除，但正式离开时间尚不可知。</p><p>这一次，不仅是特朗普要炒了她，第一夫人也点名要其走人。当地时间13日，第一夫人办公室发表声明要求炒了里卡德尔，“第一夫人认为她不配在白宫服务。”</p><p>究其原因，《华尔街日报》13日援引匿名消息人士报道称，里卡德尔在梅拉尼娅非洲行期间的飞机上与第一夫人团队成员发生争执，且她被认为是一些有关梅拉尼娅及其员工负面报道的消息来源。</p><p><br/></p>\',
+  \'parse\' => \'0\',
+); 
+') [ RunTime:0.1020s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_weixin_article` (`article_title`,`type`,`article_content`,`create_user`) VALUES ('美副国安顾问米拉·里卡德尔将被开除，第一夫人称其不配','3','<p>白宫又有人要离职？美国有线电视新闻网(CNN)11月13日援引白宫官员的话称，副国家安全顾问米拉·里卡德尔将被开除，但正式离开时间尚不可知。</p><p>这一次，不仅是特朗普要炒了她，第一夫人也点名要其走人。当地时间13日，第一夫人办公室发表声明要求炒了里卡德尔，“第一夫人认为她不配在白宫服务。”</p><p>究其原因，《华尔街日报》13日援引匿名消息人士报道称，里卡德尔在梅拉尼娅非洲行期间的飞机上与第一夫人团队成员发生争执，且她被认为是一些有关梅拉尼娅及其员工负面报道的消息来源。</p><p><br/></p>','159') [ RunTime:0.0010s ]
+
+[ 2018-11-14T12:56:52+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists/model/weixin_article.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-14T12:56:54+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/6/model/weixin_article.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-14T12:56:55+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/6.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-14T12:57:08+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/6/model/weixin_article.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`category_name` FROM `wp_weixin_category` ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-14T12:57:14+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('159','127.0.0.1','WeixinArticle','1542171434','http://weiphp.bb/index.php?s=/w16/WeixinArticle/WeixinArticle/edit.html
+POST: array (
+  \'article_title\' => \'美副国安顾问米拉·里卡德尔将被开除，第一夫人称其不配\',
+  \'type\' => \'3\',
+  \'article_content\' => \'<p>白宫又有人要离职？美国有线电视新闻网(CNN)11月13日援引白宫官员的话称，副国家安全顾问米拉·里卡德尔将被开除，但正式离开时间尚不可知。</p><p><br/></p><p>这一次，不仅是特朗普要炒了她，第一夫人也点名要其走人。当地时间13日，第一夫人办公室发表声明要求炒了里卡德尔，“第一夫人认为她不配在白宫服务。”</p><p><br/></p><p>究其原因，《华尔街日报》13日援引匿名消息人士报道称，里卡德尔在梅拉尼娅非洲行期间的飞机上与第一夫人团队成员发生争执，且她被认为是一些有关梅拉尼娅及其员工负面报道的消息来源。</p><p><br/></p>\',
+  \'parse\' => \'0\',
+  \'id\' => \'6\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_weixin_article` SET `article_title`='美副国安顾问米拉·里卡德尔将被开除，第一夫人称其不配',`type`='3',`article_content`='<p>白宫又有人要离职？美国有线电视新闻网(CNN)11月13日援引白宫官员的话称，副国家安全顾问米拉·里卡德尔将被开除，但正式离开时间尚不可知。</p><p><br/></p><p>这一次，不仅是特朗普要炒了她，第一夫人也点名要其走人。当地时间13日，第一夫人办公室发表声明要求炒了里卡德尔，“第一夫人认为她不配在白宫服务。”</p><p><br/></p><p>究其原因，《华尔街日报》13日援引匿名消息人士报道称，里卡德尔在梅拉尼娅非洲行期间的飞机上与第一夫人团队成员发生争执，且她被认为是一些有关梅拉尼娅及其员工负面报道的消息来源。</p><p><br/></p>',`create_user`='159' WHERE `id` = 6 [ RunTime:0.0000s ]
+
+[ 2018-11-14T12:57:16+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists/model/weixin_article.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-14T12:57:17+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/6/model/weixin_article.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0000s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-14T12:57:19+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/6.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+

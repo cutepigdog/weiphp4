@@ -1,0 +1,360 @@
+[ 2018-11-12T13:31:55+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/config.html&mdm=31
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.0020s ]
+
+[ 2018-11-12T13:31:56+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/index.html&mdm=31|33
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:31:58+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/lists.html&mdm=31|34
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:00+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/footer.html&mdm=31|35
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0180s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:02+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Footer/lists/mdm/31%7C35.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weisite_footer' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_weisite_footer` [ RunTime:0.0630s ]
+SQL: SELECT `title`,`icon`,`url`,`sort`,`pid`,`id` FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:03+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Footer/add/model/101.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0140s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 101 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_weisite_footer` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `pid` = 0 AND `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 101 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:07+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/index.html&mdm=31|33
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:07+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/lists.html&mdm=31|34
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:08+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/footer.html&mdm=31|35
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:09+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/index.html&mdm=31|33
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:11+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/config.html&mdm=31|32
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:13+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/footer.html&mdm=31|35
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:14+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Footer/lists/mdm/31%7C35.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `title`,`icon`,`url`,`sort`,`pid`,`id` FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:16+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Footer/add/model/101.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 101 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `pid` = 0 AND `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 101 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:18+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/config.html&mdm=31
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:23+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/config.html&mdm=31
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:24+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/config.html&mdm=31|32
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:25+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/index.html&mdm=31|33
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:26+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/lists.html&mdm=31|34
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:27+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/footer.html&mdm=31|35
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:27+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/lists.html&mdm=31|34
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:29+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/footer.html&mdm=31|35
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:32:32+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/config.html&mdm=31
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:34:31+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/config.html&mdm=31
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0560s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:34:33+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/lists.html&mdm=31|34
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:34:35+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/preview_cms/mdm/31%7C34.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:34:36+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/lists/from/preview.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0160s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_custom_reply_news` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `wp_custom_reply_news` WHERE `token` = 'gh_961dc11c078d' ORDER BY sort asc, id DESC LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_weisite_category` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_custom_reply_news` WHERE `token` = 'gh_961dc11c078d' AND `cate_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_weisite_footer` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0080s ]
+
+[ 2018-11-12T14:34:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/index.html&mdm=31|33
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0140s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:34:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/preview/mdm/31%7C33.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:34:48+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_weisite_slideshow` [ RunTime:0.0680s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:34:48+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:35:02+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/WeiSite/config.html&mdm=31
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:35:03+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/index.html&mdm=31|33
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:35:04+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/lists.html&mdm=31|34
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:35:05+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Template/footer.html&mdm=31|35
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:42:15+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:42:17+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:42:26+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:42:26+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:42:58+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:42:59+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0020s ]
+
+[ 2018-11-12T14:43:16+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:43:17+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:43:24+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:43:25+08:00 ] 127.0.0.1 /index.php?s=/w16/WeiSite/Wap/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_category` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 AND `pid` = 0 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_slideshow` WHERE `token` = 'gh_961dc11c078d' AND `is_show` = 1 ORDER BY sort asc, id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weisite_footer` WHERE `token` = 'gh_961dc11c078d' ORDER BY pid asc, sort asc  [ RunTime:0.0020s ]
+

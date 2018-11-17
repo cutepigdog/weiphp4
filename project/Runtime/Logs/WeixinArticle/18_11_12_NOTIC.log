@@ -1,0 +1,213 @@
+[ 2018-11-12T13:42:25+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WeixinArticleController.class.php:34) D:\weixin web\weiphp\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WeixinArticleController.class.php:34) D:\weixin web\weiphp\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WeixinArticleController.class.php:34) D:\weixin web\weiphp\ThinkPHP\Library\Think\View.class.php 第 93 行.
+
+[ 2018-11-12T13:48:34+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:49:17+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:49:32+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/mdm/406%7C408.html
+NOTIC: [8] Undefined index: weiba_name D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WeixinArticleController.class.php 第 18 行.
+NOTIC: [8] Undefined index: cid D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WeixinArticleController.class.php 第 18 行.
+
+[ 2018-11-12T13:49:40+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:50:41+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:50:55+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/mdm/406%7C408.html
+NOTIC: [8] Undefined index: cid D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WeixinArticleController.class.php 第 18 行.
+
+[ 2018-11-12T13:51:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:52:05+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/model/weixin_article/mdm/406|408.html
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\deeda093c69540ea80b9e05e8fdf3c9c.php 第 60 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\deeda093c69540ea80b9e05e8fdf3c9c.php 第 67 行.
+
+[ 2018-11-12T13:52:12+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/2/model/weixin_article/mdm/406|408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:53:22+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:53:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/3/model/weixin_article/mdm/406|408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:54:51+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/3/model/weixin_article/mdm/406|408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:56:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/weixin_article/mdm/406%7C408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:57:15+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/4/model/weixin_article/mdm/406|408.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-12T13:58:23+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/model/weixin_article/mdm/406|408.html
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\deeda093c69540ea80b9e05e8fdf3c9c.php 第 60 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\deeda093c69540ea80b9e05e8fdf3c9c.php 第 67 行.
+
+[ 2018-11-12T14:03:01+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\deeda093c69540ea80b9e05e8fdf3c9c.php 第 60 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\deeda093c69540ea80b9e05e8fdf3c9c.php 第 67 行.
+
+[ 2018-11-12T14:04:13+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 181 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 184 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 188 行.
+NOTIC: [8] Use of undefined constant background_arr - assumed 'background_arr' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 198 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 216 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 248 行.
+
+[ 2018-11-12T14:04:23+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 181 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 184 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 188 行.
+NOTIC: [8] Use of undefined constant background_arr - assumed 'background_arr' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 198 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 216 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 248 行.
+
+[ 2018-11-12T14:34:53+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406.html
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 181 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 184 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 188 行.
+NOTIC: [8] Use of undefined constant background_arr - assumed 'background_arr' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 198 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 216 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 248 行.
+
+[ 2018-11-12T14:35:33+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 181 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 184 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 188 行.
+NOTIC: [8] Use of undefined constant background_arr - assumed 'background_arr' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 198 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 216 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 248 行.
+
+[ 2018-11-12T14:36:13+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 176 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 179 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 183 行.
+NOTIC: [8] Use of undefined constant background_arr - assumed 'background_arr' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 193 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 211 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 243 行.
+
+[ 2018-11-12T14:36:31+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Use of undefined constant background_arr - assumed 'background_arr' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 175 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 193 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 225 行.
+
+[ 2018-11-12T14:36:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 174 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 206 行.
+
+[ 2018-11-12T14:36:54+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 174 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 206 行.
+
+[ 2018-11-12T14:38:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 173 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 176 行.
+NOTIC: [8] Use of undefined constant show_background - assumed 'show_background' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 180 行.
+NOTIC: [8] Use of undefined constant background_arr - assumed 'background_arr' D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 190 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 208 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 240 行.
+
+[ 2018-11-12T14:40:42+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 173 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 182 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 214 行.
+
+[ 2018-11-12T14:40:54+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 174 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 206 行.
+
+[ 2018-11-12T14:41:00+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 174 行.
+NOTIC: [8] Undefined variable: url D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\6d95785dff920cb09c4e79852d41c948.php 第 206 行.
+
+[ 2018-11-12T14:43:24+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+NOTIC: [2] include_once(./Addons/WeixinArticle/config.php): failed to open stream: No such file or directory D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] include_once(): Failed opening './Addons/WeixinArticle/config.php' for inclusion (include_path='.;C:\php\pear') D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Application\Common\Common\function.php 第 2620 行.
+
+[ 2018-11-12T14:46:04+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 265 行.
+
+[ 2018-11-12T14:46:05+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 265 行.
+
+[ 2018-11-12T14:49:26+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: home_file D:\weixin web\weiphp\ThinkPHP\Library\Think\View.class.php 第 172 行.
+
+[ 2018-11-12T14:51:10+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 265 行.
+
+[ 2018-11-12T14:51:11+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 253 行.
+NOTIC: [8] Undefined variable: one_arr D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 265 行.
+
+[ 2018-11-12T14:53:35+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: D方法实例化没找到模型类Addons\WeixinArticle\Model\FooterModel
+
+[ 2018-11-12T14:54:23+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: D方法实例化没找到模型类Addons\WeixinArticle\Model\FooterModel
+
+[ 2018-11-12T14:54:43+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: D方法实例化没找到模型类Addons\WeixinArticle\Model\FooterModel
+
+[ 2018-11-12T14:55:11+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+

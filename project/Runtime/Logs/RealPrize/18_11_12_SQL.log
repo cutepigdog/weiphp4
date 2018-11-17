@@ -1,0 +1,28 @@
+[ 2018-11-12T13:32:49+08:00 ] 127.0.0.1 /index.php?s=/w16/RealPrize/RealPrize/lists.html&mdm=356|29
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'real_prize' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_real_prize` [ RunTime:0.0280s ]
+SQL: SELECT `prize_name`,`prize_conditions`,`prize_count`,`prize_type`,`use_content`,`id` FROM `wp_real_prize` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_real_prize` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:50+08:00 ] 127.0.0.1 /index.php?s=/w16/RealPrize/RealPrize/add/model/64/mdm/356%7C29.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 64 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:35:20+08:00 ] 127.0.0.1 /index.php?s=/w16/RealPrize/RealPrize/lists.html&mdm=356|29
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `prize_name`,`prize_conditions`,`prize_count`,`prize_type`,`use_content`,`id` FROM `wp_real_prize` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_real_prize` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+

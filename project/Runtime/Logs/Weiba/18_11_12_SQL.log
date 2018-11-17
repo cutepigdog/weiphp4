@@ -1,0 +1,199 @@
+[ 2018-11-12T13:34:52+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Weiba/lists.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_weiba_category` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_weiba` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`weiba_name`,`cid`,`thread_count`,`follower_count` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:34:54+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Weiba/add/model/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' ORDER BY id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:34:58+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Category/lists.html&mdm=358|360
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weiba_category' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:34:59+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Category/config.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'category' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:01+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/lists.html&mdm=358|361
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weiba_post' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`weiba_name` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_weiba_post` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`title`,`weiba_id`,`post_uid`,`read_count`,`reply_count`,`post_time` FROM `wp_weiba_post` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_post` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:03+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/indexLists.html&mdm=358|364
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`weiba_name` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`weiba_id`,`post_uid`,`read_count`,`reply_count`,`post_time` FROM `wp_weiba_post` WHERE `token` = 'gh_961dc11c078d' AND `is_index` = 1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_post` WHERE `token` = 'gh_961dc11c078d' AND `is_index` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:04+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/edit_index/mdm/358%7C364.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:35:06+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Category/lists.html&mdm=358|360
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:35:07+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Category/add/model/1147/mdm/358%7C360.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1147 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:09+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Weiba/lists.html&mdm=358|359
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`weiba_name`,`cid`,`thread_count`,`follower_count` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:35:11+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Weiba/add/model/1148/mdm/358%7C359.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:13+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Category/lists.html&mdm=358|360
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:15+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Weiba/lists.html&mdm=358|359
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`weiba_name`,`cid`,`thread_count`,`follower_count` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:15+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Weiba/add/model/1148/mdm/358%7C359.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' ORDER BY id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:35:25+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Category/lists.html&mdm=358|360
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:26+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/indexLists.html&mdm=358|364
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`weiba_name` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`weiba_id`,`post_uid`,`read_count`,`reply_count`,`post_time` FROM `wp_weiba_post` WHERE `token` = 'gh_961dc11c078d' AND `is_index` = 1 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_post` WHERE `token` = 'gh_961dc11c078d' AND `is_index` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:27+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/edit_index/mdm/358%7C364.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:29+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Category/lists.html&mdm=358|360
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:30+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/lists.html&mdm=358|361
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`weiba_name` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`weiba_id`,`post_uid`,`read_count`,`reply_count`,`post_time` FROM `wp_weiba_post` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba_post` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:35:31+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Post/add/model/1149/mdm/358%7C361.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1149 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`weiba_name` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:35:22+08:00 ] 127.0.0.1 /index.php?s=/w16/Weiba/Weiba/lists.html&mdm=358
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_weiba_category` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`weiba_name`,`cid`,`thread_count`,`follower_count` FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weiba` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+

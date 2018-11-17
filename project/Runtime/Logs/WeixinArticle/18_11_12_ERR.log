@@ -1,0 +1,21 @@
+[ 2018-11-12T13:49:32+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/mdm/406%7C408.html
+ERR: Think\Controller:checkTitle方法不存在！
+
+[ 2018-11-12T13:50:55+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/mdm/406%7C408.html
+ERR: Think\Controller:checkTitle方法不存在！
+
+[ 2018-11-12T14:44:18+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+ERR: 无法加载控制器:Wap
+
+[ 2018-11-12T14:49:26+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+ERR: 模板不存在:D:\weixin web\weiphp/Addons/WeixinArticle/View/./Addons/WeixinArticle/View/TemplateIndex/ColorV1/index.html.html
+
+[ 2018-11-12T14:53:35+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/index.html
+ERR: Think\Model:get_list方法不存在！
+
+[ 2018-11-12T14:54:23+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+ERR: Think\Model:get_list方法不存在！
+
+[ 2018-11-12T14:54:43+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+ERR: Think\Model:get_list方法不存在！
+

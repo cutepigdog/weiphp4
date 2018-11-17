@@ -1,0 +1,28 @@
+[ 2018-11-12T13:32:52+08:00 ] 127.0.0.1 /index.php?s=/w16/CardVouchers/CardVouchers/lists.html&mdm=356|357
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'card_vouchers' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_card_vouchers` [ RunTime:0.0890s ]
+SQL: SELECT `id`,`content`,`code`,`appsecre`,`openid`,`card_id`,`balance`,`cover`,`background`,`title`,`button_color`,`head_bg_color`,`shop_logo`,`shop_name`,`more_button`,`template`,`uid`,`token` FROM `wp_card_vouchers` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_card_vouchers` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:53+08:00 ] 127.0.0.1 /index.php?s=/w16/CardVouchers/CardVouchers/add/model/29/mdm/356%7C357.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:35:20+08:00 ] 127.0.0.1 /index.php?s=/w16/CardVouchers/CardVouchers/lists.html&mdm=356|357
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`content`,`code`,`appsecre`,`openid`,`card_id`,`balance`,`cover`,`background`,`title`,`button_color`,`head_bg_color`,`shop_logo`,`shop_name`,`more_button`,`template`,`uid`,`token` FROM `wp_card_vouchers` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_card_vouchers` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0080s ]
+

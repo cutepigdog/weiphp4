@@ -1,0 +1,848 @@
+[ 2018-11-13T15:37:17+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weixin_article' LIMIT 1   [ RunTime:0.0160s ]
+SQL: SELECT `article_title`,`create_user`,`create_time`,`id` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T15:37:19+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27].html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0110s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:03:02+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27].html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+
+[ 2018-11-13T16:04:01+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27].html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0140s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:04:03+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0160s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:04:32+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27].html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+
+[ 2018-11-13T16:04:32+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:04:48+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27].html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:04:48+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:05:31+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27].html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:05:31+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:08:10+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `article_title`,`create_user`,`create_time`,`id` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:10:29+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weixin_article' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`article_title`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:10:41+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/[%27id%27]/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:10:42+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:17:13+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/4/model/weixin_article.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`category_name` FROM `wp_weixin_category` ORDER BY id asc  [ RunTime:0.0220s ]
+
+[ 2018-11-13T16:17:19+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/3/model/weixin_article.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`category_name` FROM `wp_weixin_category` ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:17:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weixin_article' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`article_title`,`article_content`,`create_user`,`create_time`,`modify_user`,`modify_time`,`is_valid`,`type` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0190s ]
+
+[ 2018-11-13T16:18:44+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weixin_article' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:18:50+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/2/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:18:51+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:20:19+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weixin_article' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:20:23+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:20:23+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0080s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:21:07+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:21:07+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:21:42+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:21:43+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:22:05+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:22:05+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/16.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:22:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+
+[ 2018-11-13T16:23:13+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:23:14+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:23:27+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:23:28+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:23:28+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:23:46+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:23:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:23:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:23:47+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:24:04+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:24:05+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0030s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0150s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:24:28+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:24:29+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:25:50+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:25:50+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:32:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:32:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:33:08+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:33:09+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+
+[ 2018-11-13T16:33:10+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:33:10+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:33:29+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:33:50+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:34:23+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:34:24+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0060s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:34:30+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0120s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:34:31+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:35:53+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:35:54+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0040s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:36:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:36:46+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:36:53+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0110s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:36:55+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0030s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:37:03+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:37:35+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:38:35+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:38:48+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0050s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:42:13+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:42:15+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:42:19+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:42:20+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:42:34+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:42:35+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0060s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:42:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:42:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0040s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:43:26+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T16:43:28+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:43:28+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0060s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:46:36+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:46:38+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/1/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:46:39+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:46:44+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/2/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T16:46:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/2.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0080s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:08:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/1/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:08:52+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/1/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:08:56+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:09:18+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/1/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T18:09:19+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0160s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:09:24+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:09:26+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/1/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:09:27+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:09:54+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0120s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:09:56+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/1/model/weixin_article/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T18:09:59+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/mdm/406%7C408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0100s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('159','127.0.0.1','WeixinArticle','1542103799','http://weiphp.bb/index.php?s=/w16/WeixinArticle/WeixinArticle/edit/mdm/406%7C408.html
+POST: array (
+  \'id\' => \'1\',
+); 
+') [ RunTime:0.0620s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-13T18:15:13+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0060s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'weixin_article' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:15:15+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0070s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`category_name` FROM `wp_weixin_category` ORDER BY id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T18:15:27+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:15:28+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`category_name` FROM `wp_weixin_category` ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:15:31+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0060s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:15:33+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists.html&mdm=406|408
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0040s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:15:34+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173/mdm/406%7C408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0050s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`category_name` FROM `wp_weixin_category` ORDER BY id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T18:15:53+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/mdm/406%7C408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0110s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('159','127.0.0.1','WeixinArticle','1542104153','http://weiphp.bb/index.php?s=/w16/WeixinArticle/WeixinArticle/add/mdm/406%7C408.html
+POST: array (
+  \'article_title\' => \'最新的一个文章\',
+  \'type\' => \'9\',
+  \'article_content\' => \'<p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">一个不断扩大开放的中国，将为促进世界经济增长和亚太繁荣发展作出更大贡献　　　　　</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　11月15日至21日，习近平主席将应邀对巴布亚新几内亚、文莱、菲律宾三国进行国事访问，在巴新同建交太平洋岛国领导人会晤，并出席在巴新首都莫尔兹比港举行的亚太经合组织第二十六次领导人非正式会议。在世界经济和亚太合作面临更多复杂和不确定因素的当下，习近平主席此行备受世界瞩目。国际社会普遍期待积极力促构建亚太命运共同体的中国进一步发挥建设性作用，为亚太区域合作和世界经济增长注入更多正能量。</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　今年是习近平主席连续第六年参加亚太经合组织领导人非正式会议，从共创美好亚太到共筑亚太梦想，再到深化命运共同体意识，习近平主席的倡议顺应大势、深得人心，受到广泛呼应。特别是4年前中国主办北京亚太经合组织领导人非正式会议，提出建设亚太伙伴关系，开启亚太自贸区进程，书写了难忘的历史新篇。美国《华尔街日报》指出，中国正在推动的“一带一路”建设和区域全面经济伙伴关系协定，以及近年来的参会规模，都显示出中国在该区域“核心般的存在”。今年，会议聚焦“把握包容性机遇，拥抱数字化未来”，随着“后2020愿景”提上日程，亚太经济发展面临新的机遇。中国以实际行动践行亚太伙伴关系精神，坚定维护亚太建设开放型经济的正确方向，以实际行动不断提升区域经济合作的深度和广度，培育地区经济增长新动能，有利于推动亚太经济朝着更加开放、包容、普惠、平衡、共享的方向稳步发展。</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　太平洋岛国是中国的重要合作伙伴。2014年，习近平主席在斐济同建交太平洋岛国领导人举行集体会晤，与有关国家建立相互尊重、共同发展的战略伙伴关系，开启了中国与太平洋岛国关系的新篇章。“中国对发展同太平洋岛国关系的重视只会加强、不会削弱，投入只会增加、不会减少”，说到做到。近年来，中国为巴新等太平洋岛国援建了国际会议中心、港口、道路、办公楼、学校、医院等100多个成套项目，资助1300多位岛国青年学生来华留学，培训了4000多名专业人才，有力促进了岛国国家发展和民生改善。“如果没有中方的真诚无私帮助，巴新不可能取得今天这样的快速发展”“中国提供的援助给斐济人民带来实实在在的好处”……太平洋岛国人民的心声，彰显中国同有关国家加强合作符合地区国家需要，有牢固的民意基础。时隔4年，习近平主席再次访问地区国家并同建交太平洋岛国领导人会晤，中国与太平洋岛国关系发展将迎来新的历史性机遇。</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　今年是中国与东盟建立战略伙伴关系15周年和中国—东盟创新年，文莱和菲律宾都是东盟成员国，习近平主席对文莱和菲律宾的国事访问对进一步巩固中国与东盟国家关系、深化周边外交具有重要意义。15年来，中国与东盟国家的合作已成为亚太区域合作中最成功和最具活力的典范。中国已连续9年成为东盟第一大贸易伙伴，东盟连续7年成为中国第三大贸易伙伴。文莱和菲律宾都愿同中方深化“一带一路”合作，共同为东盟共同体建设和一体化进程注入新动力，共同维护南海和地区和平稳定，中国与两国关系也将伴随此访提质升级。“我本人热切期盼习近平主席对菲进行国事访问，菲中关系必将迎来新的发展前景。”菲律宾总统杜特尔特的话，道出对习近平主席访问以及双边关系深化发展的热切期待。</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　立足亚太，造福亚太，这是中国坚定不移的立场和担当。今年以来，中国宣布了一系列扩大开放的重大举措，并成功举办首届中国国际进口博览会，明年中国还将举办第二届“一带一路”国际合作高峰论坛……一个不断扩大开放的中国，将为促进世界经济增长和亚太繁荣发展作出更大贡献。习近平主席此次出访将进一步深化中国与地区国家关系，将为亚太这片充满生机活力的区域带来更多合作与发展的新动能，共筑亚太梦想，共同迈向亚太命运共同体光明未来。</p><p><br/></p>\',
+  \'parse\' => \'0\',
+); 
+') [ RunTime:0.0220s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_weixin_article` (`article_title`,`type`,`article_content`) VALUES ('最新的一个文章','9','<p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">一个不断扩大开放的中国，将为促进世界经济增长和亚太繁荣发展作出更大贡献　　　　　</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　11月15日至21日，习近平主席将应邀对巴布亚新几内亚、文莱、菲律宾三国进行国事访问，在巴新同建交太平洋岛国领导人会晤，并出席在巴新首都莫尔兹比港举行的亚太经合组织第二十六次领导人非正式会议。在世界经济和亚太合作面临更多复杂和不确定因素的当下，习近平主席此行备受世界瞩目。国际社会普遍期待积极力促构建亚太命运共同体的中国进一步发挥建设性作用，为亚太区域合作和世界经济增长注入更多正能量。</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　今年是习近平主席连续第六年参加亚太经合组织领导人非正式会议，从共创美好亚太到共筑亚太梦想，再到深化命运共同体意识，习近平主席的倡议顺应大势、深得人心，受到广泛呼应。特别是4年前中国主办北京亚太经合组织领导人非正式会议，提出建设亚太伙伴关系，开启亚太自贸区进程，书写了难忘的历史新篇。美国《华尔街日报》指出，中国正在推动的“一带一路”建设和区域全面经济伙伴关系协定，以及近年来的参会规模，都显示出中国在该区域“核心般的存在”。今年，会议聚焦“把握包容性机遇，拥抱数字化未来”，随着“后2020愿景”提上日程，亚太经济发展面临新的机遇。中国以实际行动践行亚太伙伴关系精神，坚定维护亚太建设开放型经济的正确方向，以实际行动不断提升区域经济合作的深度和广度，培育地区经济增长新动能，有利于推动亚太经济朝着更加开放、包容、普惠、平衡、共享的方向稳步发展。</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　太平洋岛国是中国的重要合作伙伴。2014年，习近平主席在斐济同建交太平洋岛国领导人举行集体会晤，与有关国家建立相互尊重、共同发展的战略伙伴关系，开启了中国与太平洋岛国关系的新篇章。“中国对发展同太平洋岛国关系的重视只会加强、不会削弱，投入只会增加、不会减少”，说到做到。近年来，中国为巴新等太平洋岛国援建了国际会议中心、港口、道路、办公楼、学校、医院等100多个成套项目，资助1300多位岛国青年学生来华留学，培训了4000多名专业人才，有力促进了岛国国家发展和民生改善。“如果没有中方的真诚无私帮助，巴新不可能取得今天这样的快速发展”“中国提供的援助给斐济人民带来实实在在的好处”……太平洋岛国人民的心声，彰显中国同有关国家加强合作符合地区国家需要，有牢固的民意基础。时隔4年，习近平主席再次访问地区国家并同建交太平洋岛国领导人会晤，中国与太平洋岛国关系发展将迎来新的历史性机遇。</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　今年是中国与东盟建立战略伙伴关系15周年和中国—东盟创新年，文莱和菲律宾都是东盟成员国，习近平主席对文莱和菲律宾的国事访问对进一步巩固中国与东盟国家关系、深化周边外交具有重要意义。15年来，中国与东盟国家的合作已成为亚太区域合作中最成功和最具活力的典范。中国已连续9年成为东盟第一大贸易伙伴，东盟连续7年成为中国第三大贸易伙伴。文莱和菲律宾都愿同中方深化“一带一路”合作，共同为东盟共同体建设和一体化进程注入新动力，共同维护南海和地区和平稳定，中国与两国关系也将伴随此访提质升级。“我本人热切期盼习近平主席对菲进行国事访问，菲中关系必将迎来新的发展前景。”菲律宾总统杜特尔特的话，道出对习近平主席访问以及双边关系深化发展的热切期待。</p><p style=\"margin-top: 25px; margin-bottom: 25px; padding: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 18px; line-height: 32.4px; font-family: 微软雅黑; color: rgb(34, 34, 34); white-space: normal;\">　　立足亚太，造福亚太，这是中国坚定不移的立场和担当。今年以来，中国宣布了一系列扩大开放的重大举措，并成功举办首届中国国际进口博览会，明年中国还将举办第二届“一带一路”国际合作高峰论坛……一个不断扩大开放的中国，将为促进世界经济增长和亚太繁荣发展作出更大贡献。习近平主席此次出访将进一步深化中国与地区国家关系，将为亚太这片充满生机活力的区域带来更多合作与发展的新动能，共筑亚太梦想，共同迈向亚太命运共同体光明未来。</p><p><br/></p>') [ RunTime:0.0110s ]
+
+[ 2018-11-13T18:15:55+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/lists/model/weixin_article/mdm/406%7C408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0270s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`article_title`,`type`,`create_user`,`create_time` FROM `wp_weixin_article` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `category_name` FROM `wp_weixin_category` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_weixin_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-13T18:15:57+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/5/model/weixin_article/mdm/406|408.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0080s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-13T18:15:58+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/5.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT `token` FROM `wp_apps` WHERE `appid` = 'wx3242f2f336f9b44a' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0180s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_weixin_article` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+

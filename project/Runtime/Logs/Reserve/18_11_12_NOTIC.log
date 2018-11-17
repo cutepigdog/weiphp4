@@ -1,0 +1,21 @@
+[ 2018-11-12T13:31:35+08:00 ] 127.0.0.1 /index.php?s=/w16/Reserve/Reserve/add/model/190.html
+NOTIC: [8] Undefined variable: model D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 176 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 180 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 186 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 188 行.
+NOTIC: [8] Use of undefined constant pay_online - assumed 'pay_online' D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 195 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 195 行.
+NOTIC: [8] Use of undefined constant pay_online - assumed 'pay_online' D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 199 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 199 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 208 行.
+NOTIC: [8] Use of undefined constant cover - assumed 'cover' D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 210 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 219 行.
+NOTIC: [8] Undefined variable: fields D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 227 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 229 行.
+NOTIC: [8] Undefined variable: option_list D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 251 行.
+NOTIC: [8] Undefined variable: attr_list D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 281 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 313 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 314 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 314 行.
+NOTIC: [8] Undefined variable: data D:\weixin web\weiphp\Runtime\Cache\Reserve\191fccb3dfeef2ea90f1bd0a673f394f.php 第 317 行.
+

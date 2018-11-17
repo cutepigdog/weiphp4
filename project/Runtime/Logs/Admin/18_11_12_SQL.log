@@ -1,0 +1,3124 @@
+[ 2018-11-12T11:58:52+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Update/delcache.html&mdm=367|375
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_manager` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wp_manager` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_apps_follow` [ RunTime:0.0010s ]
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `wp_apps_follow` WHERE ( uid='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_user_tag_link` [ RunTime:0.0010s ]
+SQL: SELECT `tag_id` FROM `wp_user_tag_link` WHERE `uid` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wp_manager` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `wp_apps_follow` WHERE ( uid='1' )  [ RunTime:0.0000s ]
+SQL: SELECT `tag_id` FROM `wp_user_tag_link` WHERE `uid` = 1  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:58:55+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/lists.html&mdm=368|369
+SQL: SHOW COLUMNS FROM `wp_hooks` [ RunTime:0.0030s ]
+SQL: SELECT `name`,`addons` FROM `wp_hooks`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_plugin` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('SocialComment')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Vote','Wecome','UserCenter','WeiSite','Hitegg','Leaflets','CustomReply','Survey','Diy','CustomMenu','Invite','Game','Ask','Forms','CardVouchers','RedBag','Guess','WishCard','RealPrize','ConfigureAccount','BusinessCard','AutoReply','Payment','Comment','ShopCoupon','Coupon','Card','SingIn','Reserve','Wuguai','Sms','Exam','Test','Draw','YaoTV','Analysis','Weiba','QrAdmin','PublicBind','Cms','Feedback','WeiUserCenter','WeiPicture')  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Vote','Wecome','UserCenter','WeiSite','Hitegg','Leaflets','CustomReply','Survey','Diy','CustomMenu','Invite','Game','Ask','Forms','CardVouchers','RedBag','Guess','WishCard','RealPrize','ConfigureAccount','BusinessCard','AutoReply','Payment','Comment','ShopCoupon','Coupon','Card','SingIn','Reserve','Wuguai','Sms','Exam','Test','Draw','YaoTV','Analysis','Weiba','QrAdmin','PublicBind','Cms','Feedback','WeiUserCenter','WeiPicture')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Cascade')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Cascade')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Diy')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Diy')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('DynamicSelect')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('DynamicSelect')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('News')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('News')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('DynamicCheckbox')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('DynamicCheckbox')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Material')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Material')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Prize')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Prize')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_config` [ RunTime:0.0020s ]
+SQL: SELECT `type`,`name`,`value` FROM `wp_config` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_apps` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_card_custom` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_menu` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wp_manager` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0010s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `wp_apps_follow` WHERE ( uid='1' )  [ RunTime:0.0010s ]
+SQL: SELECT `tag_id` FROM `wp_user_tag_link` WHERE `uid` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'menu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `wp_menu` WHERE `place` = 0 ORDER BY id desc LIMIT 0,10000   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'QrAdmin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CardVouchers' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Ask' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Exam' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Reserve' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'SingIn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Card' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'NoAnswer' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Leaflets' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'AutoReply' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CustomMenu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Invite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RealPrize' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RedBag' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WishCard' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Guess' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Forms' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Survey' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_menu` WHERE `place` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place` FROM `wp_menu` WHERE `place` = 0 ORDER BY sort asc,id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:58:56+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/add.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `wp_menu` WHERE `menu_type` = 0 AND `place` = 0 ORDER BY pid asc, sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons` WHERE `type` = 0 ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:15+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0180s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0010s ]
+
+[ 2018-11-12T11:59:16+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Addons/index.html&mdm=380|381
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','Card','CardVouchers','Cms','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Feedback','Forms','Game','Guess','Invite','Leaflets','NoAnswer','Payment','PublicBind','QrAdmin','RealPrize','RedBag','Reserve','Servicer','SingIn','Sms','Survey','Test','UserCenter','Vote','Wecome','WeiPicture','WeiSite','WeiUserCenter','Weiba','WeixinArticle','WeixinCategory','WishCard') ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_addon_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:18+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Addons/install/addon_name/WeixinCategory.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_addons` WHERE `name` = 'WeixinCategory' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_addons` (`name`,`title`,`description`,`status`,`author`,`version`,`has_adminlist`,`type`,`create_time`) VALUES ('WeixinCategory','微信文章栏目管理','微信文章栏目管理','1','weishaobo','0.1','1','0','1541995158') [ RunTime:0.0000s ]
+SQL: UPDATE `wp_addons` SET `config`='null' WHERE ( name='WeixinCategory' ) [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_hooks`  [ RunTime:0.0000s ]
+SQL: SELECT `addons` FROM `wp_hooks` WHERE ( name='weixin' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_hooks` SET `addons`='Vote,Wecome,UserCenter,WeiSite,Hitegg,Leaflets,CustomReply,Survey,Diy,CustomMenu,Invite,Game,Ask,Forms,CardVouchers,RedBag,Guess,WishCard,RealPrize,ConfigureAccount,BusinessCard,AutoReply,Payment,Comment,ShopCoupon,Coupon,Card,SingIn,Reserve,Wuguai,Sms,Exam,Test,Draw,YaoTV,Analysis,Weiba,QrAdmin,PublicBind,Cms,Feedback,WeiUserCenter,WeiPicture,WeixinCategory' WHERE ( name='weixin' ) [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:19+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Addons/install/addon_name/WeixinArticle.html
+SQL: SELECT `name`,`addons` FROM `wp_hooks`  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Vote','Wecome','UserCenter','WeiSite','Hitegg','Leaflets','CustomReply','Survey','Diy','CustomMenu','Invite','Game','Ask','Forms','CardVouchers','RedBag','Guess','WishCard','RealPrize','ConfigureAccount','BusinessCard','AutoReply','Payment','Comment','ShopCoupon','Coupon','Card','SingIn','Reserve','Wuguai','Sms','Exam','Test','Draw','YaoTV','Analysis','Weiba','QrAdmin','PublicBind','Cms','Feedback','WeiUserCenter','WeiPicture','WeixinCategory')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Vote','Wecome','UserCenter','WeiSite','Hitegg','Leaflets','CustomReply','Survey','Diy','CustomMenu','Invite','Game','Ask','Forms','CardVouchers','RedBag','Guess','WishCard','RealPrize','ConfigureAccount','BusinessCard','AutoReply','Payment','Comment','ShopCoupon','Coupon','Card','SingIn','Reserve','Wuguai','Sms','Exam','Test','Draw','YaoTV','Analysis','Weiba','QrAdmin','PublicBind','Cms','Feedback','WeiUserCenter','WeiPicture','WeixinCategory')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Cascade')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Cascade')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Diy')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Diy')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('DynamicSelect')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('DynamicSelect')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('News')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('News')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('DynamicCheckbox')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('DynamicCheckbox')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Material')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Material')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Prize')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Prize')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_addons` WHERE `name` = 'WeixinArticle' LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_addons` (`name`,`title`,`description`,`status`,`author`,`version`,`has_adminlist`,`type`,`create_time`) VALUES ('WeixinArticle','微信文章管理','微信文章管理','1','weishaobo','0.1','1','0','1541995159') [ RunTime:0.0000s ]
+SQL: UPDATE `wp_addons` SET `config`='null' WHERE ( name='WeixinArticle' ) [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_hooks`  [ RunTime:0.0000s ]
+SQL: SELECT `addons` FROM `wp_hooks` WHERE ( name='weixin' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_hooks` SET `addons`='Vote,Wecome,UserCenter,WeiSite,Hitegg,Leaflets,CustomReply,Survey,Diy,CustomMenu,Invite,Game,Ask,Forms,CardVouchers,RedBag,Guess,WishCard,RealPrize,ConfigureAccount,BusinessCard,AutoReply,Payment,Comment,ShopCoupon,Coupon,Card,SingIn,Reserve,Wuguai,Sms,Exam,Test,Draw,YaoTV,Analysis,Weiba,QrAdmin,PublicBind,Cms,Feedback,WeiUserCenter,WeiPicture,WeixinCategory,WeixinArticle' WHERE ( name='weixin' ) [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:20+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Addons/index.html&mdm=380|381
+SQL: SELECT `name`,`addons` FROM `wp_hooks`  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('ReturnTop')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('SocialComment')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('EditorForAdmin')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('SiteStat','SystemInfo','DevTeam')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Editor')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Vote','Wecome','UserCenter','WeiSite','Hitegg','Leaflets','CustomReply','Survey','Diy','CustomMenu','Invite','Game','Ask','Forms','CardVouchers','RedBag','Guess','WishCard','RealPrize','ConfigureAccount','BusinessCard','AutoReply','Payment','Comment','ShopCoupon','Coupon','Card','SingIn','Reserve','Wuguai','Sms','Exam','Test','Draw','YaoTV','Analysis','Weiba','QrAdmin','PublicBind','Cms','Feedback','WeiUserCenter','WeiPicture','WeixinCategory','WeixinArticle')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Vote','Wecome','UserCenter','WeiSite','Hitegg','Leaflets','CustomReply','Survey','Diy','CustomMenu','Invite','Game','Ask','Forms','CardVouchers','RedBag','Guess','WishCard','RealPrize','ConfigureAccount','BusinessCard','AutoReply','Payment','Comment','ShopCoupon','Coupon','Card','SingIn','Reserve','Wuguai','Sms','Exam','Test','Draw','YaoTV','Analysis','Weiba','QrAdmin','PublicBind','Cms','Feedback','WeiUserCenter','WeiPicture','WeixinCategory','WeixinArticle')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Cascade')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Cascade')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Diy')  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Diy')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('DynamicSelect')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('DynamicSelect')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('News')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('News')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('DynamicCheckbox')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('DynamicCheckbox')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Material')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Material')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_addons` WHERE `status` = 1 AND `name` IN ('Prize')  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `wp_plugin` WHERE `status` = 1 AND `name` IN ('Prize')  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','Card','CardVouchers','Cms','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Feedback','Forms','Game','Guess','Invite','Leaflets','NoAnswer','Payment','PublicBind','QrAdmin','RealPrize','RedBag','Reserve','Servicer','SingIn','Sms','Survey','Test','UserCenter','Vote','Wecome','WeiPicture','WeiSite','WeiUserCenter','Weiba','WeixinArticle','WeixinCategory','WishCard') ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:22+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Addons/index/mdm/380%7C381/p/2.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','Card','CardVouchers','Cms','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Feedback','Forms','Game','Guess','Invite','Leaflets','NoAnswer','Payment','PublicBind','QrAdmin','RealPrize','RedBag','Reserve','Servicer','SingIn','Sms','Survey','Test','UserCenter','Vote','Wecome','WeiPicture','WeiSite','WeiUserCenter','Weiba','WeixinArticle','WeixinCategory','WishCard') ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:26+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Addons/index/mdm/380%7C381/p/3.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','Card','CardVouchers','Cms','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Feedback','Forms','Game','Guess','Invite','Leaflets','NoAnswer','Payment','PublicBind','QrAdmin','RealPrize','RedBag','Reserve','Servicer','SingIn','Sms','Survey','Test','UserCenter','Vote','Wecome','WeiPicture','WeiSite','WeiUserCenter','Weiba','WeixinArticle','WeixinCategory','WishCard') ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:30+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Addons/index/mdm/380%7C381/p/2.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','Card','CardVouchers','Cms','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Feedback','Forms','Game','Guess','Invite','Leaflets','NoAnswer','Payment','PublicBind','QrAdmin','RealPrize','RedBag','Reserve','Servicer','SingIn','Sms','Survey','Test','UserCenter','Vote','Wecome','WeiPicture','WeiSite','WeiUserCenter','Weiba','WeixinArticle','WeixinCategory','WishCard') ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0010s ]
+
+[ 2018-11-12T11:59:35+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Addons/index.html&title=weixin
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`description`,`status`,`config`,`author`,`version`,`create_time`,`has_adminlist`,`type`,`cate_id`,`is_show` FROM `wp_addons` WHERE `name` IN ('Ask','AutoReply','BusinessCard','Card','CardVouchers','Cms','Comment','ConfigureAccount','Coupon','CustomMenu','CustomReply','DeveloperTool','Draw','Exam','Feedback','Forms','Game','Guess','Invite','Leaflets','NoAnswer','Payment','PublicBind','QrAdmin','RealPrize','RedBag','Reserve','Servicer','SingIn','Sms','Survey','Test','UserCenter','Vote','Wecome','WeiPicture','WeiSite','WeiUserCenter','Weiba','WeixinArticle','WeixinCategory','WishCard') ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_addon_category`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:41+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/lists.html&mdm=368|369
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `wp_menu` WHERE `place` = 0 ORDER BY id desc LIMIT 0,10000   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'QrAdmin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CardVouchers' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Ask' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Exam' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Reserve' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'SingIn' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Card' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'NoAnswer' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Leaflets' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'AutoReply' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CustomMenu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Invite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RealPrize' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RedBag' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WishCard' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Guess' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Forms' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Survey' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_menu` WHERE `place` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place` FROM `wp_menu` WHERE `place` = 0 ORDER BY sort asc,id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T11:59:42+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/add.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `wp_menu` WHERE `menu_type` = 0 AND `place` = 0 ORDER BY pid asc, sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons` WHERE `type` = 0 ORDER BY id asc  [ RunTime:0.0160s ]
+
+[ 2018-11-12T12:00:04+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/add.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_admin_log` [ RunTime:0.0020s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541995204','http://weiphp.bb/index.php?s=/w0/Admin/Menu/add.html
+POST: array (
+  \'menu_type\' => \'0\',
+  \'pid0\' => \'0\',
+  \'pid\' => \'0\',
+  \'title\' => \'微信文章管理\',
+  \'url_type\' => \'0\',
+  \'addon_name\' => \'WeixinArticle\',
+  \'url\' => \'\',
+  \'target\' => \'_self\',
+  \'is_hide\' => \'0\',
+  \'sort\' => \'\',
+  \'place\' => \'\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541995204','http://weiphp.bb/index.php?s=/w0/Admin/Menu/add.html
+POST: array (
+  \'menu_type\' => \'0\',
+  \'pid0\' => \'0\',
+  \'pid\' => \'0\',
+  \'title\' => \'微信文章管理\',
+  \'url_type\' => \'0\',
+  \'addon_name\' => \'WeixinArticle\',
+  \'url\' => \'\',
+  \'target\' => \'_self\',
+  \'is_hide\' => \'0\',
+  \'sort\' => \'\',
+  \'place\' => \'\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_menu` (`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place`) VALUES ('0','0','微信文章管理','0','WeixinArticle','','_self','0','0','0') [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:00:06+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/lists.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `wp_menu` WHERE `place` = 0 ORDER BY id desc LIMIT 0,10000   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeixinArticle' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'QrAdmin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CardVouchers' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Ask' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Exam' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Reserve' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'SingIn' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Card' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'NoAnswer' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Leaflets' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'AutoReply' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CustomMenu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Invite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RealPrize' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RedBag' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WishCard' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Guess' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Forms' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Survey' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_menu` WHERE `place` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place` FROM `wp_menu` WHERE `place` = 0 ORDER BY sort asc,id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:00:07+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/add.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `wp_menu` WHERE `menu_type` = 0 AND `place` = 0 ORDER BY pid asc, sort asc  [ RunTime:0.0070s ]
+SQL: SELECT `name`,`title` FROM `wp_addons` WHERE `type` = 0 ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:00:26+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/add.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541995226','http://weiphp.bb/index.php?s=/w0/Admin/Menu/add.html
+POST: array (
+  \'menu_type\' => \'1\',
+  \'pid0\' => \'406\',
+  \'pid\' => \'406\',
+  \'title\' => \'微信文章栏目管理\',
+  \'url_type\' => \'0\',
+  \'addon_name\' => \'0\',
+  \'url\' => \'\',
+  \'target\' => \'_self\',
+  \'is_hide\' => \'0\',
+  \'sort\' => \'\',
+  \'place\' => \'\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541995226','http://weiphp.bb/index.php?s=/w0/Admin/Menu/add.html
+POST: array (
+  \'menu_type\' => \'1\',
+  \'pid0\' => \'406\',
+  \'pid\' => \'406\',
+  \'title\' => \'微信文章栏目管理\',
+  \'url_type\' => \'0\',
+  \'addon_name\' => \'0\',
+  \'url\' => \'\',
+  \'target\' => \'_self\',
+  \'is_hide\' => \'0\',
+  \'sort\' => \'\',
+  \'place\' => \'\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_menu` (`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place`) VALUES ('1','406','微信文章栏目管理','0','0','','_self','0','0','0') [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:00:28+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/lists.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `wp_menu` WHERE `place` = 0 ORDER BY id desc LIMIT 0,10000   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeixinArticle' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'QrAdmin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CardVouchers' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Ask' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Exam' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Reserve' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'SingIn' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Card' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'NoAnswer' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Leaflets' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'AutoReply' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CustomMenu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Invite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RealPrize' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RedBag' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WishCard' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Guess' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Forms' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Survey' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_menu` WHERE `place` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place` FROM `wp_menu` WHERE `place` = 0 ORDER BY sort asc,id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:00:29+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/add.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `wp_menu` WHERE `menu_type` = 0 AND `place` = 0 ORDER BY pid asc, sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons` WHERE `type` = 0 ORDER BY id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:00:46+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/add.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541995246','http://weiphp.bb/index.php?s=/w0/Admin/Menu/add.html
+POST: array (
+  \'menu_type\' => \'1\',
+  \'pid0\' => \'406\',
+  \'pid\' => \'406\',
+  \'title\' => \'微信文章管理\',
+  \'url_type\' => \'0\',
+  \'addon_name\' => \'WeixinArticle\',
+  \'url\' => \'\',
+  \'target\' => \'_self\',
+  \'is_hide\' => \'0\',
+  \'sort\' => \'\',
+  \'place\' => \'\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541995246','http://weiphp.bb/index.php?s=/w0/Admin/Menu/add.html
+POST: array (
+  \'menu_type\' => \'1\',
+  \'pid0\' => \'406\',
+  \'pid\' => \'406\',
+  \'title\' => \'微信文章管理\',
+  \'url_type\' => \'0\',
+  \'addon_name\' => \'WeixinArticle\',
+  \'url\' => \'\',
+  \'target\' => \'_self\',
+  \'is_hide\' => \'0\',
+  \'sort\' => \'\',
+  \'place\' => \'\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_menu` (`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place`) VALUES ('1','406','微信文章管理','0','WeixinArticle','','_self','0','0','0') [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:00:47+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/lists.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `wp_menu` WHERE `place` = 0 ORDER BY id desc LIMIT 0,10000   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeixinArticle' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeixinArticle' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'QrAdmin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CardVouchers' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Ask' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Exam' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Reserve' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'SingIn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Card' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'NoAnswer' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Leaflets' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'AutoReply' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CustomMenu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Invite' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RealPrize' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RedBag' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WishCard' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Guess' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Forms' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Survey' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_menu` WHERE `place` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place` FROM `wp_menu` WHERE `place` = 0 ORDER BY sort asc,id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:01:41+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/edit/id/407/model/menu.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 407 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pid`,`sort` FROM `wp_menu` WHERE `menu_type` = 0 AND `place` = 0 ORDER BY pid asc, sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons` WHERE `type` = 0 ORDER BY id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:01:52+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/edit.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541995312','http://weiphp.bb/index.php?s=/w0/Admin/Menu/edit.html
+POST: array (
+  \'menu_type\' => \'1\',
+  \'pid0\' => \'406\',
+  \'pid\' => \'406\',
+  \'title\' => \'微信文章栏目管理\',
+  \'url_type\' => \'0\',
+  \'addon_name\' => \'WeixinCategory\',
+  \'url\' => \'\',
+  \'target\' => \'_self\',
+  \'is_hide\' => \'0\',
+  \'sort\' => \'0\',
+  \'place\' => \'0\',
+  \'id\' => \'407\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541995312','http://weiphp.bb/index.php?s=/w0/Admin/Menu/edit.html
+POST: array (
+  \'menu_type\' => \'1\',
+  \'pid0\' => \'406\',
+  \'pid\' => \'406\',
+  \'title\' => \'微信文章栏目管理\',
+  \'url_type\' => \'0\',
+  \'addon_name\' => \'WeixinCategory\',
+  \'url\' => \'\',
+  \'target\' => \'_self\',
+  \'is_hide\' => \'0\',
+  \'sort\' => \'0\',
+  \'place\' => \'0\',
+  \'id\' => \'407\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 407 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_menu` SET `menu_type`='1',`pid`='406',`title`='微信文章栏目管理',`url_type`='0',`addon_name`='WeixinCategory',`url`='',`target`='_self',`is_hide`='0',`sort`='0',`place`='0' WHERE `id` = 407 [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:01:54+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Menu/lists/place/0.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `title`,`menu_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`id` FROM `wp_menu` WHERE `place` = 0 ORDER BY id desc LIMIT 0,10000   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeixinArticle' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeixinCategory' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeixinArticle' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'QrAdmin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Weiba' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CardVouchers' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Ask' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Exam' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Reserve' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'SingIn' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Card' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'NoAnswer' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Leaflets' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'AutoReply' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'CustomMenu' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Wecome' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WeiSite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Invite' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RealPrize' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'RedBag' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Coupon' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'WishCard' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Guess' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Forms' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Survey' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'Vote' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = 'UserCenter' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_addons` WHERE `name` = '' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_menu` WHERE `place` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`menu_type`,`pid`,`title`,`url_type`,`addon_name`,`url`,`target`,`is_hide`,`sort`,`place` FROM `wp_menu` WHERE `place` = 0 ORDER BY sort asc,id asc  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:02:16+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0100s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0040s ]
+
+[ 2018-11-12T12:56:39+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:57:05+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998625','http://weiphp.bb/index.php?s=/w0/Admin/Model/update.html
+POST: array (
+  \'name\' => \'weixin_category\',
+  \'title\' => \'微信栏目\',
+  \'addon\' => \'\',
+  \'add_button\' => \'1\',
+  \'del_button\' => \'1\',
+  \'check_all\' => \'1\',
+  \'search_button\' => \'1\',
+  \'search_key\' => \'\',
+  \'list_row\' => \'10\',
+  \'come_from\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+  ),
+  \'field\' => 
+  array (
+    1 => \'id\',
+    2 => \'category_name\',
+  ),
+  \'url_title\' => 
+  array (
+    1 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+    2 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+  ),
+  \'url_url\' => 
+  array (
+    1 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+    2 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+  ),
+  \'attr_title\' => 
+  array (
+    1 => \'ID主键\',
+    2 => \'栏目名称\',
+  ),
+  \'width\' => 
+  array (
+    1 => \'\',
+    2 => \'\',
+  ),
+  \'is_sort\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+  ),
+  \'id\' => \'1174\',
+); 
+') [ RunTime:0.0820s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998625','http://weiphp.bb/index.php?s=/w0/Admin/Model/update.html
+POST: array (
+  \'name\' => \'weixin_category\',
+  \'title\' => \'微信栏目\',
+  \'addon\' => \'\',
+  \'add_button\' => \'1\',
+  \'del_button\' => \'1\',
+  \'check_all\' => \'1\',
+  \'search_button\' => \'1\',
+  \'search_key\' => \'\',
+  \'list_row\' => \'10\',
+  \'come_from\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+  ),
+  \'field\' => 
+  array (
+    1 => \'id\',
+    2 => \'category_name\',
+  ),
+  \'url_title\' => 
+  array (
+    1 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+    2 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+  ),
+  \'url_url\' => 
+  array (
+    1 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+    2 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+  ),
+  \'attr_title\' => 
+  array (
+    1 => \'ID主键\',
+    2 => \'栏目名称\',
+  ),
+  \'width\' => 
+  array (
+    1 => \'\',
+    2 => \'\',
+  ),
+  \'is_sort\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+  ),
+  \'id\' => \'1174\',
+); 
+') [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_category',`title`='微信栏目',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1174 [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:57:07+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0050s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0080s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:57:11+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:57:12+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:57:19+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:57:32+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:57:33+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:57:37+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:57:43+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/category_name/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:57:48+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998668','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'category_name\',
+  \'title\' => \'栏目名称\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(255) NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'1\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998668','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'category_name\',
+  \'title\' => \'栏目名称\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(255) NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'1\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0220s ]
+SQL: 			ALTER TABLE `wp_weixin_category` CHANGE COLUMN `category_name` `category_name`  varchar(255) NOT NULL  COMMENT '栏目名称' ; [ RunTime:0.1720s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_category',`title`='微信栏目',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1174 [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:57:54+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0130s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0020s ]
+
+[ 2018-11-12T12:57:56+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:58:01+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:58:32+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998712','http://weiphp.bb/index.php?s=/w0/Admin/Model/update.html
+POST: array (
+  \'name\' => \'weixin_article\',
+  \'title\' => \'微信文章管理\',
+  \'addon\' => \'\',
+  \'add_button\' => \'1\',
+  \'del_button\' => \'1\',
+  \'check_all\' => \'1\',
+  \'search_button\' => \'1\',
+  \'search_key\' => \'\',
+  \'list_row\' => \'10\',
+  \'come_from\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+    3 => \'0\',
+    4 => \'1\',
+  ),
+  \'field\' => 
+  array (
+    1 => \'article_title\',
+    2 => \'create_user\',
+    3 => \'create_time\',
+    4 => \'modify_time\',
+  ),
+  \'url_title\' => 
+  array (
+    1 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+    2 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+    3 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+    4 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+  ),
+  \'url_url\' => 
+  array (
+    1 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+    2 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+    3 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+    4 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+  ),
+  \'attr_title\' => 
+  array (
+    1 => \'标题\',
+    2 => \'创建人\',
+    3 => \'创建时间\',
+    4 => \'更新时间\',
+  ),
+  \'width\' => 
+  array (
+    1 => \'\',
+    2 => \'\',
+    3 => \'\',
+    4 => \'\',
+  ),
+  \'is_sort\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+    3 => \'0\',
+    4 => \'0\',
+  ),
+  \'id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998712','http://weiphp.bb/index.php?s=/w0/Admin/Model/update.html
+POST: array (
+  \'name\' => \'weixin_article\',
+  \'title\' => \'微信文章管理\',
+  \'addon\' => \'\',
+  \'add_button\' => \'1\',
+  \'del_button\' => \'1\',
+  \'check_all\' => \'1\',
+  \'search_button\' => \'1\',
+  \'search_key\' => \'\',
+  \'list_row\' => \'10\',
+  \'come_from\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+    3 => \'0\',
+    4 => \'1\',
+  ),
+  \'field\' => 
+  array (
+    1 => \'article_title\',
+    2 => \'create_user\',
+    3 => \'create_time\',
+    4 => \'modify_time\',
+  ),
+  \'url_title\' => 
+  array (
+    1 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+    2 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+    3 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+    4 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+  ),
+  \'url_url\' => 
+  array (
+    1 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+    2 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+    3 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+    4 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+  ),
+  \'attr_title\' => 
+  array (
+    1 => \'标题\',
+    2 => \'创建人\',
+    3 => \'创建时间\',
+    4 => \'更新时间\',
+  ),
+  \'width\' => 
+  array (
+    1 => \'\',
+    2 => \'\',
+    3 => \'\',
+    4 => \'\',
+  ),
+  \'is_sort\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+    3 => \'0\',
+    4 => \'0\',
+  ),
+  \'id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:58:34+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0180s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0100s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0010s ]
+
+[ 2018-11-12T12:58:37+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:58:44+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998724','http://weiphp.bb/index.php?s=/w0/Admin/Model/update.html
+POST: array (
+  \'name\' => \'weixin_category\',
+  \'title\' => \'微信栏目\',
+  \'addon\' => \'\',
+  \'add_button\' => \'1\',
+  \'del_button\' => \'1\',
+  \'check_all\' => \'1\',
+  \'search_button\' => \'1\',
+  \'search_key\' => \'\',
+  \'list_row\' => \'10\',
+  \'come_from\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+    21 => \'1\',
+  ),
+  \'field\' => 
+  array (
+    1 => \'id\',
+    2 => \'category_name\',
+    21 => \'category_name\',
+  ),
+  \'attr_title\' => 
+  array (
+    1 => \'ID主键\',
+    2 => \'栏目名称\',
+    21 => \'栏目名称\',
+  ),
+  \'width\' => 
+  array (
+    1 => \'\',
+    2 => \'\',
+    21 => \'\',
+  ),
+  \'is_sort\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+    21 => \'0\',
+  ),
+  \'url_title\' => 
+  array (
+    21 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+  ),
+  \'url_url\' => 
+  array (
+    21 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+  ),
+  \'id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998724','http://weiphp.bb/index.php?s=/w0/Admin/Model/update.html
+POST: array (
+  \'name\' => \'weixin_category\',
+  \'title\' => \'微信栏目\',
+  \'addon\' => \'\',
+  \'add_button\' => \'1\',
+  \'del_button\' => \'1\',
+  \'check_all\' => \'1\',
+  \'search_button\' => \'1\',
+  \'search_key\' => \'\',
+  \'list_row\' => \'10\',
+  \'come_from\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+    21 => \'1\',
+  ),
+  \'field\' => 
+  array (
+    1 => \'id\',
+    2 => \'category_name\',
+    21 => \'category_name\',
+  ),
+  \'attr_title\' => 
+  array (
+    1 => \'ID主键\',
+    2 => \'栏目名称\',
+    21 => \'栏目名称\',
+  ),
+  \'width\' => 
+  array (
+    1 => \'\',
+    2 => \'\',
+    21 => \'\',
+  ),
+  \'is_sort\' => 
+  array (
+    1 => \'0\',
+    2 => \'0\',
+    21 => \'0\',
+  ),
+  \'url_title\' => 
+  array (
+    21 => 
+    array (
+      0 => \'编辑\',
+      1 => \'删除\',
+      2 => \'预览\',
+    ),
+  ),
+  \'url_url\' => 
+  array (
+    21 => 
+    array (
+      0 => \'[EDIT]\',
+      1 => \'[DELETE]\',
+      2 => \'preview?id=[\\\'id\\\']\',
+    ),
+  ),
+  \'id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_category',`title`='微信栏目',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1174 [ RunTime:0.0000s ]
+
+[ 2018-11-12T12:58:46+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0030s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0030s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0030s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0290s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0030s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0030s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0030s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0030s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0110s ]
+
+[ 2018-11-12T13:00:58+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:01:02+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:01:14+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0020s ]
+
+[ 2018-11-12T13:01:19+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:01:21+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:01:24+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/category_name/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:01:32+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998892','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'category_name\',
+  \'title\' => \'栏目名称\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(255) NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'1\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998892','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'category_name\',
+  \'title\' => \'栏目名称\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(255) NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'1\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: 			ALTER TABLE `wp_weixin_category` CHANGE COLUMN `category_name` `category_name`  varchar(255) NOT NULL  COMMENT '栏目名称' ; [ RunTime:0.0540s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_category',`title`='微信栏目',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1174 [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:01:33+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:01:41+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/create_time/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:01:58+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0160s ]
+
+[ 2018-11-12T13:02:01+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:02+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:04+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/article_title/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:02:08+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998928','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'article_title\',
+  \'title\' => \'标题\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(255) NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'1\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998928','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'article_title\',
+  \'title\' => \'标题\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(255) NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'1\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `article_title` `article_title`  varchar(255) NOT NULL  COMMENT '标题' ; [ RunTime:0.1100s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:09+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:11+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/article_content/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:02:14+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998934','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'article_content\',
+  \'title\' => \'内容\',
+  \'type\' => \'string\',
+  \'field\' => \'text NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'2\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998934','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'article_content\',
+  \'title\' => \'内容\',
+  \'type\' => \'string\',
+  \'field\' => \'text NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'2\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0020s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `article_content` `article_content`  text NOT NULL  COMMENT '内容' ; [ RunTime:0.0280s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:02:15+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:02:19+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/type/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:21+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998941','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'type\',
+  \'title\' => \'文章类别\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(100) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'8\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998941','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'type\',
+  \'title\' => \'文章类别\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(100) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'8\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0020s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `type` `type`  varchar(100) NULL  COMMENT '文章类别' ; [ RunTime:0.0370s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0100s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:23+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:44+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/type/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:53+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998973','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'type\',
+  \'title\' => \'文章类别\',
+  \'type\' => \'dynamic_select\',
+  \'field\' => \'varchar(100) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'8\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1541998973','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'type\',
+  \'title\' => \'文章类别\',
+  \'type\' => \'dynamic_select\',
+  \'field\' => \'varchar(100) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'8\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0040s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `type` `type`  varchar(100) NULL  COMMENT '文章类别' ; [ RunTime:0.0400s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:02:54+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:45:18+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0380s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:45:22+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:45:25+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:45:44+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/cid/model_id/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:46:00+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0030s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0030s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0020s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0120s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0030s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0030s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0030s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:46:06+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:46:10+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/type/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:47:01+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542001621','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'type\',
+  \'title\' => \'文章类别\',
+  \'type\' => \'dynamic_select\',
+  \'field\' => \'varchar(100) NULL\',
+  \'extra\' => \'table=weixin_category&value_field=id&title_field=category_name\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'8\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0050s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542001621','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'type\',
+  \'title\' => \'文章类别\',
+  \'type\' => \'dynamic_select\',
+  \'field\' => \'varchar(100) NULL\',
+  \'extra\' => \'table=weixin_category&value_field=id&title_field=category_name\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'8\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `type` `type`  varchar(100) NULL  COMMENT '文章类别' ; [ RunTime:0.0700s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:47:02+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:47:59+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/save_sort.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542001679','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/save_sort.html
+POST: array (
+  \'model_id\' => \'1173\',
+  \'sort\' => 
+  array (
+    0 => \'article_title\',
+    1 => \'type\',
+    2 => \'article_content\',
+    3 => \'create_user\',
+    4 => \'create_time\',
+    5 => \'modify_user\',
+    6 => \'modify_time\',
+    7 => \'is_valid\',
+  ),
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542001679','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/save_sort.html
+POST: array (
+  \'model_id\' => \'1173\',
+  \'sort\' => 
+  array (
+    0 => \'article_title\',
+    1 => \'type\',
+    2 => \'article_content\',
+    3 => \'create_user\',
+    4 => \'create_time\',
+    5 => \'modify_user\',
+    6 => \'modify_time\',
+    7 => \'is_valid\',
+  ),
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:48:00+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:48:26+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/article_content/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:48:31+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542001711','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'article_content\',
+  \'title\' => \'内容\',
+  \'type\' => \'editor\',
+  \'field\' => \'text NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'3\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542001711','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'article_content\',
+  \'title\' => \'内容\',
+  \'type\' => \'editor\',
+  \'field\' => \'text NOT NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'1\',
+  \'is_must\' => \'1\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'\',
+  \'auto_time\' => \'3\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'3\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `article_content` `article_content`  text NOT NULL  COMMENT '内容' ; [ RunTime:0.0310s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:48:32+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:48:55+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:49:00+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/ctime/model_id/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:52:43+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/create_time/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:53:11+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542001991','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_time\',
+  \'title\' => \'创建时间\',
+  \'type\' => \'datetime\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'time\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'5\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542001991','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_time\',
+  \'title\' => \'创建时间\',
+  \'type\' => \'datetime\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'time\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'5\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0020s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `create_time` `create_time`  int(10) NULL  COMMENT '创建时间' ; [ RunTime:0.0560s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:53:13+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:54:04+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/modify_user/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:54:19+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:54:24+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/modify_time/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:54:38+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002077','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'modify_time\',
+  \'title\' => \'更新时间\',
+  \'type\' => \'datetime\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'time\',
+  \'auto_time\' => \'2\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'7\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002077','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'modify_time\',
+  \'title\' => \'更新时间\',
+  \'type\' => \'datetime\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'time\',
+  \'auto_time\' => \'2\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'7\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0020s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `modify_time` `modify_time`  int(10) NULL  COMMENT '更新时间' ; [ RunTime:0.0390s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:54:39+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:55:09+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:55:17+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/uid/model_id/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:55:28+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/create_user/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:55:52+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002151','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_user\',
+  \'title\' => \'创建人\',
+  \'type\' => \'string\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'4\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002151','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_user\',
+  \'title\' => \'创建人\',
+  \'type\' => \'string\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'4\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0040s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `create_user` `create_user`  int(10) NULL  COMMENT '创建人' ; [ RunTime:0.0440s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:55:53+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:56:05+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/modify_time/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:56:21+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:56:23+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/modify_user/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:56:37+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002197','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'modify_user\',
+  \'title\' => \'更新人\',
+  \'type\' => \'string\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'2\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'6\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002197','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'modify_user\',
+  \'title\' => \'更新人\',
+  \'type\' => \'string\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'2\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'6\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `modify_user` `modify_user`  int(10) NULL  COMMENT '更新人' ; [ RunTime:0.0450s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:56:39+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:57:36+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1148.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1148 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:57:52+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/article_title/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:57:57+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/create_user/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:58:06+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002286','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_user\',
+  \'title\' => \'创建人\',
+  \'type\' => \'string\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'4\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002286','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_user\',
+  \'title\' => \'创建人\',
+  \'type\' => \'string\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'4\',
+  \'model_id\' => \'1173\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: 			ALTER TABLE `wp_weixin_article` CHANGE COLUMN `create_user` `create_user`  int(10) NULL  COMMENT '创建人' ; [ RunTime:0.0390s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_article',`title`='微信文章管理',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1173 [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:58:08+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1173.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1173 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:59:11+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Model/index.html&mdm=366
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `name`,`id` FROM `wp_model`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_card_custom_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_card_custom_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_category [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_article' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_weixin_article [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_feedback' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_feedback [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_cms' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_cms [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_api_access_token' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_access_token [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_docs' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_docs [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_error_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_error_log [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_debug_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_debug_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_request_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_request_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_admin_log' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_admin_log [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api_param' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api_param [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_api' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_api [ RunTime:0.0020s ]
+SQL: SHOW TABLES LIKE 'wp_qr_admin' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_qr_admin [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag_link' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag_link [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_user_tag' [ RunTime:0.0010s ]
+SQL: SHOW FULL COLUMNS FROM wp_user_tag [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba_post' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba_post [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weiba' [ RunTime:0.0000s ]
+SQL: SHOW FULL COLUMNS FROM wp_weiba [ RunTime:0.0050s ]
+
+[ 2018-11-12T13:59:15+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/model/edit/id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name`,`title` FROM `wp_addons`  [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:59:16+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:59:21+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/create_time/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:59:32+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002372','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_time\',
+  \'title\' => \'创建时间\',
+  \'type\' => \'datetime\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'time\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'2\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002372','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_time\',
+  \'title\' => \'创建时间\',
+  \'type\' => \'datetime\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'time\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'2\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0020s ]
+SQL: 			ALTER TABLE `wp_weixin_category` CHANGE COLUMN `create_time` `create_time`  int(10) NULL  COMMENT '创建时间' ; [ RunTime:0.0360s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_category',`title`='微信栏目',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1174 [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:59:33+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T13:59:39+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/create_user/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:00:11+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002411','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_user\',
+  \'title\' => \'创建人\',
+  \'type\' => \'string\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'3\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0010s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002411','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'create_user\',
+  \'title\' => \'创建人\',
+  \'type\' => \'string\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'1\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'3\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0030s ]
+SQL: 			ALTER TABLE `wp_weixin_category` CHANGE COLUMN `create_user` `create_user`  int(10) NULL  COMMENT '创建人' ; [ RunTime:0.0340s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_category',`title`='微信栏目',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1174 [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:00:13+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:00:17+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/create_time/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:00:24+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:00:26+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/modify_time/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:00:51+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002451','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'modify_time\',
+  \'title\' => \'更新时间\',
+  \'type\' => \'datetime\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'time\',
+  \'auto_time\' => \'2\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'4\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002451','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'modify_time\',
+  \'title\' => \'更新时间\',
+  \'type\' => \'datetime\',
+  \'field\' => \'int(10) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'3\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'time\',
+  \'auto_time\' => \'2\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'4\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0020s ]
+SQL: 			ALTER TABLE `wp_weixin_category` CHANGE COLUMN `modify_time` `modify_time`  int(10) NULL  COMMENT '更新时间' ; [ RunTime:0.0500s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_category',`title`='微信栏目',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1174 [ RunTime:0.0010s ]
+
+[ 2018-11-12T14:00:52+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:01:07+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/edit/name/modify_user/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:01:51+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/update.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002511','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'modify_user\',
+  \'title\' => \'更新人\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(255) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'2\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'2\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'5\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: INSERT INTO `wp_admin_log` (`uid`,`ip`,`mod`,`cTime`,`content`) VALUES ('1','127.0.0.1','Admin','1542002511','http://weiphp.bb/index.php?s=/w0/Admin/Attribute/update.html
+POST: array (
+  \'name\' => \'modify_user\',
+  \'title\' => \'更新人\',
+  \'type\' => \'string\',
+  \'field\' => \'varchar(255) NULL\',
+  \'extra\' => \'\',
+  \'value\' => \'\',
+  \'remark\' => \'\',
+  \'is_show\' => \'0\',
+  \'is_must\' => \'0\',
+  \'validate_type\' => \'regex\',
+  \'validate_rule\' => \'\',
+  \'error_info\' => \'\',
+  \'validate_time\' => \'2\',
+  \'auto_type\' => \'function\',
+  \'auto_rule\' => \'get_mid\',
+  \'auto_time\' => \'2\',
+  \'validate_file_exts\' => \'\',
+  \'validate_file_size\' => \'\',
+  \'id\' => \'5\',
+  \'model_id\' => \'1174\',
+); 
+') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW TABLES LIKE 'wp_weixin_category' [ RunTime:0.0020s ]
+SQL: 			ALTER TABLE `wp_weixin_category` CHANGE COLUMN `modify_user` `modify_user`  varchar(255) NULL  COMMENT '更新人' ; [ RunTime:0.0440s ]
+SQL: SELECT `id`,`name`,`title`,`need_pk`,`field_sort`,`list_grid`,`list_row`,`search_key`,`engine_type`,`addon`,`file_md5` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `wp_model` SET `name`='weixin_category',`title`='微信栏目',`search_key`='',`list_row`='10',`addon`='' WHERE `id` = 1174 [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:01:52+08:00 ] 127.0.0.1 /index.php?s=/w0/Admin/Attribute/index/model_id/1174.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `wp_model` WHERE `id` = 1174 LIMIT 1   [ RunTime:0.0010s ]
+

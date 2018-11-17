@@ -1,0 +1,21 @@
+[ 2018-11-12T13:31:32+08:00 ] 127.0.0.1 /index.php?s=/w16/Reserve/Reserve/lists.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'reserve' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 190 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_reserve` [ RunTime:0.0680s ]
+SQL: SELECT `id`,`title`,`cTime`,`token`,`password`,`jump_url`,`content`,`finish_tip`,`can_edit`,`intro`,`mTime`,`cover`,`template`,`status`,`start_time`,`end_time`,`pay_online` FROM `wp_reserve` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_reserve` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:31:35+08:00 ] 127.0.0.1 /index.php?s=/w16/Reserve/Reserve/add/model/190.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_plugin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wp_plugin` WHERE `status` = 1  [ RunTime:0.0000s ]
+

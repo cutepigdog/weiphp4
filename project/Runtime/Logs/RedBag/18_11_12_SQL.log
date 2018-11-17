@@ -1,0 +1,28 @@
+[ 2018-11-12T13:32:46+08:00 ] 127.0.0.1 /index.php?s=/w16/RedBag/RedBag/lists.html&mdm=356|28
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'redbag' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_redbag` [ RunTime:0.0340s ]
+SQL: SELECT `id`,`mch_id`,`sub_mch_id`,`wxappid`,`nick_name`,`send_name`,`total_amount`,`min_value`,`max_value`,`total_num`,`wishing`,`act_name`,`remark`,`logo_imgurl`,`share_content`,`share_url`,`share_imgurl`,`collect_count`,`collect_amount`,`collect_limit`,`partner_key`,`template`,`token`,`uid`,`act_remark` FROM `wp_redbag` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_redbag` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T13:32:46+08:00 ] 127.0.0.1 /index.php?s=/w16/RedBag/RedBag/add/model/65/mdm/356%7C28.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 65 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-12T14:35:19+08:00 ] 127.0.0.1 /index.php?s=/w16/RedBag/RedBag/lists.html&mdm=356|28
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = 'gh_961dc11c078d'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_apps_link` WHERE `uid` = 159  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`mch_id`,`sub_mch_id`,`wxappid`,`nick_name`,`send_name`,`total_amount`,`min_value`,`max_value`,`total_num`,`wishing`,`act_name`,`remark`,`logo_imgurl`,`share_content`,`share_url`,`share_imgurl`,`collect_count`,`collect_amount`,`collect_limit`,`partner_key`,`template`,`token`,`uid`,`act_remark` FROM `wp_redbag` WHERE `token` = 'gh_961dc11c078d' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_redbag` WHERE `token` = 'gh_961dc11c078d' LIMIT 1   [ RunTime:0.0010s ]
+

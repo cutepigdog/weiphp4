@@ -1,0 +1,54 @@
+[ 2018-11-14T12:55:33+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/5.html
+NOTIC: [2] include_once(./Addons/WeixinArticle/config.php): failed to open stream: No such file or directory D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] include_once(): Failed opening './Addons/WeixinArticle/config.php' for inclusion (include_path='.;C:\php\pear') D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Application\Common\Common\function.php 第 2620 行.
+
+[ 2018-11-14T12:55:34+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/5.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined index: title D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\b9c75d9ad8a240d4b598c96d60ed360d.php 第 40 行.
+NOTIC: [8] Undefined variable: footer_html D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\b9c75d9ad8a240d4b598c96d60ed360d.php 第 49 行.
+
+[ 2018-11-14T12:55:43+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/4.html
+NOTIC: [2] include_once(./Addons/WeixinArticle/config.php): failed to open stream: No such file or directory D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] include_once(): Failed opening './Addons/WeixinArticle/config.php' for inclusion (include_path='.;C:\php\pear') D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Application\Common\Common\function.php 第 2620 行.
+
+[ 2018-11-14T12:55:45+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/4.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined index: title D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\b9c75d9ad8a240d4b598c96d60ed360d.php 第 40 行.
+NOTIC: [8] Undefined variable: footer_html D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\b9c75d9ad8a240d4b598c96d60ed360d.php 第 49 行.
+
+[ 2018-11-14T12:56:36+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/add/model/1173.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-14T12:56:54+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/6/model/weixin_article.html
+NOTIC: [2] include_once(./Addons/WeixinArticle/config.php): failed to open stream: No such file or directory D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] include_once(): Failed opening './Addons/WeixinArticle/config.php' for inclusion (include_path='.;C:\php\pear') D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Application\Common\Common\function.php 第 2620 行.
+
+[ 2018-11-14T12:56:55+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/6.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined index: title D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\b9c75d9ad8a240d4b598c96d60ed360d.php 第 40 行.
+NOTIC: [8] Undefined variable: footer_html D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\b9c75d9ad8a240d4b598c96d60ed360d.php 第 49 行.
+
+[ 2018-11-14T12:57:08+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/edit/id/6/model/weixin_article.html
+NOTIC: [8192] mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+NOTIC: [2] mysql_real_escape_string(): A link to the server could not be established D:\weixin web\weiphp\ThinkPHP\Library\Think\Template\TagLib\Weiphp.class.php 第 338 行.
+
+[ 2018-11-14T12:57:17+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/WeixinArticle/preview/id/6/model/weixin_article.html
+NOTIC: [2] include_once(./Addons/WeixinArticle/config.php): failed to open stream: No such file or directory D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] include_once(): Failed opening './Addons/WeixinArticle/config.php' for inclusion (include_path='.;C:\php\pear') D:\weixin web\weiphp\Application\Common\Common\function.php 第 2619 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\weixin web\weiphp\Application\Common\Common\function.php 第 2620 行.
+
+[ 2018-11-14T12:57:19+08:00 ] 127.0.0.1 /index.php?s=/w16/WeixinArticle/Wap/detail/id/6.html
+NOTIC: [8] Undefined property: stdClass::$ticket D:\weixin web\weiphp\ThinkPHP\Library\Vendor\jssdk\jssdk.php 第 49 行.
+NOTIC: [8] Undefined offset: 0 D:\weixin web\weiphp\Addons\WeixinArticle\Controller\WapController.class.php 第 20 行.
+NOTIC: [8] Undefined index: title D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\b9c75d9ad8a240d4b598c96d60ed360d.php 第 40 行.
+NOTIC: [8] Undefined variable: footer_html D:\weixin web\weiphp\Runtime\Cache\WeixinArticle\b9c75d9ad8a240d4b598c96d60ed360d.php 第 49 行.
+

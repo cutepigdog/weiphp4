@@ -1,0 +1,65 @@
+[ 2018-11-16T17:29:24+08:00 ] 127.0.0.1 /
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:1.8460s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.1110s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.1500s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.2130s ]
+
+[ 2018-11-16T17:29:25+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`token`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds` FROM `wp_qr_code` WHERE `addon` = 'ScanLogin' AND `extra_text` = '5bee8df4708c8' LIMIT 1   [ RunTime:0.2030s ]
+SQL: SELECT `id`,`token` FROM `wp_apps`  [ RunTime:0.1530s ]
+
+[ 2018-11-16T17:54:15+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0490s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='' and g.status='1' )  [ RunTime:0.0310s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0290s ]
+SQL: SELECT `id`,`qr_code`,`addon`,`aim_id`,`cTime`,`token`,`action_name`,`extra_text`,`extra_int`,`request_count`,`scene_id`,`expire_seconds` FROM `wp_qr_code` WHERE `addon` = 'ScanLogin' AND `extra_text` = '5bee8df4708c8' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`token` FROM `wp_apps`  [ RunTime:0.0090s ]
+
+[ 2018-11-16T17:54:32+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `nickname` = 'weishaoqiang' LIMIT 1   [ RunTime:0.0920s ]
+
+[ 2018-11-16T17:54:35+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `nickname` = 'weishaoqiang' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-11-16T17:54:39+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `nickname` = 'weishaoqiang' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_action` WHERE `name` = 'user_login' LIMIT 1   [ RunTime:0.0490s ]
+SQL: UPDATE `wp_user` SET `login_count`=`login_count`+1,`last_login_time`='1542362079',`last_login_ip`='2130706433' WHERE `uid` = 159 [ RunTime:0.0270s ]
+
+[ 2018-11-16T17:54:40+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/Index/index.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0120s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-16T17:54:40+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+
+[ 2018-11-16T17:54:40+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/Apps/lists/from/3.html
+SQL: SELECT * FROM `wp_card_custom` WHERE `token` = ''  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_user` WHERE `uid` = 159 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wp_manager` WHERE ( uid='159' ) LIMIT 1   [ RunTime:0.0790s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0030s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `wp_apps_follow` WHERE ( uid='159' )  [ RunTime:0.0260s ]
+SQL: SELECT `tag_id` FROM `wp_user_tag_link` WHERE `uid` = 159  [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='159' and g.status='1' )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_menu` WHERE `place` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wp_model` WHERE `name` = 'apps' LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT `mp_id` FROM `wp_apps_link` WHERE ( uid='159' )  [ RunTime:0.0150s ]
+SQL: SELECT `mp_id`,count(1) as num FROM `wp_apps_link` WHERE `mp_id` IN ('16') GROUP BY mp_id  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `wp_model` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0110s ]
+SQL: SELECT `id`,`uid`,`public_name`,`public_id`,`headface_url`,`area`,`addon_config`,`addon_status`,`token`,`type`,`appid`,`secret`,`encodingaeskey`,`tips_url`,`is_bind`,`check_file`,`app_type`,`mch_id`,`partner_key`,`cert_pem`,`key_pem`,`authorizer_refresh_token` FROM `wp_apps` WHERE `id` IN ('16') ORDER BY id desc  [ RunTime:0.0000s ]
+

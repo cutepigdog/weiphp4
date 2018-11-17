@@ -1,0 +1,3 @@
+<?php
+//000000000000a:22:{s:2:"id";s:2:"16";s:3:"uid";s:3:"159";s:11:"public_name";s:12:"盈鑫卫浴";s:9:"public_id";s:15:"gh_961dc11c078d";s:12:"headface_url";N;s:4:"area";N;s:12:"addon_config";N;s:12:"addon_status";N;s:5:"token";s:15:"gh_961dc11c078d";s:4:"type";s:1:"3";s:5:"appid";s:18:"wx3242f2f336f9b44a";s:6:"secret";s:32:"3e19419d42512ba39115cf5019d2e834";s:14:"encodingaeskey";s:32:"s9fDt1xVQPBTRcFr9BttHoVdLZ3zbkWh";s:8:"tips_url";N;s:7:"is_bind";s:1:"0";s:10:"check_file";s:1:"0";s:8:"app_type";s:1:"0";s:6:"mch_id";N;s:11:"partner_key";N;s:8:"cert_pem";N;s:7:"key_pem";N;s:24:"authorizer_refresh_token";N;}
+?>

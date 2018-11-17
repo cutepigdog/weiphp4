@@ -1,0 +1,9 @@
+[ 2018-11-16T17:29:25+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+NOTIC: [8] Undefined index: qr_code F:\weixin web\weiphp\Application\Home\Controller\UserController.class.php 第 258 行.
+
+[ 2018-11-16T17:54:15+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+NOTIC: [8] Undefined index: qr_code F:\weixin web\weiphp\Application\Home\Controller\UserController.class.php 第 258 行.
+
+[ 2018-11-16T17:54:39+08:00 ] 127.0.0.1 /index.php?s=/w0/Home/User/login/from/1.html
+NOTIC: [8] Undefined index: status F:\weixin web\weiphp\Application\Common\Common\function.php 第 736 行.
+
